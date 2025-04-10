@@ -1,4 +1,5 @@
-from flask import Flask, request, jsonify, Response
+from flask import Flask, request, jsonify, Response # type: ignore
+import base64
 import threading
 
 app = Flask(__name__)
