@@ -73,14 +73,6 @@ seaborn==0.13.2
 six==1.17.0
 sng4onnx==1.0.4
 sympy==1.13.1
-tensorboard==2.18.0
-tensorboard-data-server==0.7.2
-tensorflow==2.18.0
-tensorflow-addons==0.23.0
-tensorflow-estimator==2.13.0
-tensorflow-io-gcs-filesystem==0.37.1
-tensorflow-macos==2.13.0
-tensorflow-probability==0.25.0
 termcolor==2.5.0
 tf2onnx==1.16.1
 tf_keras==2.18.0
