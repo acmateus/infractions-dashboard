@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, Response # type: ignore
-from flask import render_template # type: ignore
+from flask import send_file # type: ignore
 import base64
 import threading
 
@@ -26,4 +26,4 @@ def serve_live_image():
 
 @app.route('/viewer')
 def viewer():
-    return render_template('index.html')
+    return send_file("index.html")
