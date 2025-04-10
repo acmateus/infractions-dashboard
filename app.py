@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify, Response # type: ignore
+from flask import render_template # type: ignore
 import base64
 import threading
 
@@ -23,6 +24,6 @@ def serve_live_image():
     else:
         return "Waiting for live feed...", 200
 
-@app.route('/')
-def index():
-    return '🚀 Your Flask app is running on Railway!'
+@app.route('/viewer')
+def viewer():
+    return render_template('index.html')
