@@ -23,5 +23,3 @@ def serve_live_image():
     else:
         return "Waiting for live feed...", 200
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
