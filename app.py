@@ -23,3 +23,6 @@ def serve_live_image():
     else:
         return "Waiting for live feed...", 200
 
+@app.route('/')
+def index():
+    return '🚀 Your Flask app is running on Railway!'
